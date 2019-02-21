@@ -1,0 +1,58 @@
+# Required fields
+# The main researchers involved working on the resource,
+# or the authors of the publication in priority order.
+# May be a corporate/institutional or personal name.
+# Include digital identifier (e.g., ORCID) if possible
+authors:
+  -
+    firstname: "Tim"
+    lastname: "Rohe"
+    affiliation: "Department of Psychiatry and Psychotherapy, Calwerstr. 14, University of Tuebingen, 72076 Tuebingen, Germany"
+    id: "AuthorID1 (e.g. ORCID)"
+  -
+    firstname: "Ann-Christine"
+    lastname: "Ehlis"
+    affiliation: "Department of Psychiatry and Psychotherapy, Calwerstr. 14, University of Tuebingen, 72076 Tuebingen, Germany"
+  -
+    firstname: "Uta"
+    lastname: "Noppeney"
+	affiliation: "Computational Neuroscience and Cognitive Robotics Centre, University of Birmingham, Edgbaston, Birmingham, B15 2TT, United Kingdom"
+    
+# A name or title to describe the published resource.
+title: "The neural dynamics of hierarchical Bayesian causal inference in multisensory perception"
+
+# Any additional information. It is best practice to supply a description for the resource.
+description: |
+  This repository contains EEG raw data, behavioral data and source data from Rohe et al. (2019)
+
+# List of keywords the resource should be associated with.
+keywords:
+  - Bayesian causal inference
+  - Multisensory integration
+  - EEG
+
+# Any rights information for this resource. Please provide both a license name and a link to the license.
+# Please add also a LICENSE file to the repository
+license:
+  name: "Creative Commons CC0 1.0 Public Domain Dedication"
+  url: "https://creativecommons.org/publicdomain/zero/1.0/"
+
+## Optional Fields
+
+# Any funding reference for this resource. Separate funder name and grant number by comma
+funding:
+  - "DFG RO 5587/1-1"
+  - "ERC ERC-multsens, 309349"
+
+# Related publications. reftype might be: IsCitedBy, IsSupplementTo, IsReferencedBy, IsPartOf
+# for further valid types see https://schema.datacite.org/meta/kernel-4
+# Please provide digital identifier (e.g., DOI) if possible.
+references:
+  -
+    reftype: "IsPartOf"
+    name: "Rohe, T., Ehlis, A.-C. & Noppeney, U. The neural dynamics of hierarchical Bayesian causal inference in multisensory perception. Nature Communications, accepted (2019)"
+
+# Type of the data in this repository (Dataset, Model, Software, Other see
+# https://schema.datacite.org/meta/kernel-4.1/doc/DataCite-MetadataKernel_v4.1.pdf
+# for examples
+dtype: Dataset
