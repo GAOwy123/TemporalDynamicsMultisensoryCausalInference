@@ -5,6 +5,8 @@ This repository contains EEG raw data, behavioral data and source data for the p
 Rohe, T., Ehlis, A.-C. & Noppeney, U. The neural dynamics of hierarchical Bayesian causal inference in multisensory perception. Nature Communications, accepted (2019)
 
 
+Please cite the publication if using any of the content of the repository.
+
 The file “Behavioral data.zip” contains the behavioral data from the study as well as Matlab code to fit the Bayesian Causal Inference model to the behavioral data. Please see the readme in the .zip file for details.
 
 The file “Source data.zip” contains the individual data underlying the figures and the tables of the publication. Please see the readme in the .zip file for details.
