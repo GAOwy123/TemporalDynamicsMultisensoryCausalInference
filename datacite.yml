@@ -16,14 +16,14 @@ authors:
   -
     firstname: "Uta"
     lastname: "Noppeney"
-	affiliation: "Computational Neuroscience and Cognitive Robotics Centre, University of Birmingham, Edgbaston, Birmingham, B15 2TT, United Kingdom"
+    affiliation: "Computational Neuroscience and Cognitive Robotics Centre, University of Birmingham, Edgbaston, Birmingham, United Kingdom"
     
 # A name or title to describe the published resource.
 title: "The neural dynamics of hierarchical Bayesian causal inference in multisensory perception"
 
 # Any additional information. It is best practice to supply a description for the resource.
-description: |
-  This repository contains EEG raw data, behavioral data and source data from Rohe et al. (2019)
+description: 
+    This repository contains EEG raw data, behavioral data and source data from Rohe et al. (2019)
 
 # List of keywords the resource should be associated with.
 keywords:
